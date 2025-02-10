@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SONOMI DESIGN</title>
+  <link rel="stylesheet" href="./CSS/reset.css" />
+  <link rel="stylesheet" href="./CSS/style.css" />
+  <script>
+    (function (d) {
+      var config = {
+        kitId: "lex2ilm",
+        scriptTimeout: 3000,
+        async: true
+      },
+        h = d.documentElement,
+        t = setTimeout(function () {
+          h.className =
+            h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+        }, config.scriptTimeout),
+        tk = d.createElement("script"),
+        f = false,
+        s = d.getElementsByTagName("script")[0],
+        a;
+      h.className += " wf-loading";
+      tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+      tk.async = true;
+      tk.onload = tk.onreadystatechange = function () {
+        a = this.readyState;
+        if (f || (a && a != "complete" && a != "loaded")) return;
+        f = true;
+        clearTimeout(t);
+        try {
+          Typekit.load(config);
+        } catch (e) { }
+      };
+      s.parentNode.insertBefore(tk, s);
+    })(document);
+  </script>
+
+  <!-- jQuery読み込み -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/MorphSVGPlugin.min.js"></script>
+</head>
+
+<body>
+  <header id="header" class="header">
+    <nav class="header__nav">
+      <ul class="menu">
+        <li>
+          <a href="#about">ABOUT</a>
+        </li>
+        <li>
+          <a href="#service">SERVICE</a>
+        </li>
+        <li>
+          <a href="#works">WORKS</a>
+        </li>
+        <li>
+          <a href="#contact">CONTACT</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="hamburger">
+      <span></span>
+    </div>
+    <nav class="sp__nav">
+      <ul>
+        <li>
+          <a href="#about">
+            <img src="./images/section_title_ABOUT.svg" alt="ABOUT" class="sp__nav__img" />
+          </a>
+        </li>
+        <li>
+          <a href="#service">
+            <img src="./images/section_title_SERVICE.svg" alt="SERVICE" class="sp__nav__img" />
+          </a>
+        </li>
+        <li>
+          <a href="#works">
+            <img src="./images/section_title_WORKS.svg" alt="WORKS" class="sp__nav__img" />
+          </a>
+        </li>
+        <li>
+          <a href="#contact">
+            <img src="./images/section_title_CONTACT.svg" alt="CONTACT" class="sp__nav__img" />
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="mainvisual">
+      <h1>SONOMI DSIGN</h1>
+      <p>WEB CORDING / WEB DSESIGN</p>
+      <div class="mainvisual_text">
+        <img src="./images/mainvisual_text@2x.png" alt="SONOMI" />
+      </div>
+      <div class="switching">
+        <div class="loading-text"></div>
+      </div>
+    </div>
+
+    <section id="about" class="sec">
+      <h2 class="section__title">
+        <img src="./images/section_title_ABOUT.svg" alt="ABOUT" class="section__title__img" />
+      </h2>
+      <p class="intro__exp">
+        こちらはWEBコーダーSONOMIのポートフォリオサイトです。これまで手がけた制作物、スキルをまとめています。<br />
+        あなたに、私のことをもっと知ってほしいと思って作りました。どうぞコーヒーでも飲みながらゆっくりとご覧ください。
+      </p>
+      <p class="intro__exp2">
+        こちらはWEBコーダーSONOMIの<br />ポートフォリオサイトです。<br />
+        これまで手がけた制作物、<br />スキルをまとめています。<br />
+        あなたに、私のことを<br />もっと知ってほしいと思って作りました。<br />
+        どうぞコーヒーでも飲みながら<br />ゆっくりとご覧ください。
+      </p>
+      <div class="about__items">
+        <div class="about__items__icon">
+          <img src="./images/face_icon@2x.png" alt="" class="face__icon" />
+        </div>
+        <div class="about__items__exp">
+          <p class="title">WEB CORDING / WEB DSESIGN</p>
+          <p class="name">SONOMI</p>
+          <p class="self__introduction">
+            はじめまして、SONOMIと申します。沖縄県出身で、現在は愛知県でプログラマーとして働いております。趣味はカフェ巡りで、週末には名古屋市内をブラブラして過ごすことが多いです。メガネ屋で働いていた際に、カルテ管理システムの中身に興味を持ち職業訓練校に進学し、プログラミングを学んできました。授業の一環でソフトウェア開発実習があり、初めてチームで開発したソフトウェアが完成した瞬間、その達成感とともに、WEBデザインの魅力に強く引き寄せられました。今後はもっと多くの方々にわかりやすく、使いやすく、楽しめるデザインを提供できるよう、WEBデザイン・コーディングのスキルを深めていきたいと思い、オンラインスクールで学び始めました。
+          </p>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill__items">
+          <p class="skill__items__title">HTML</p>
+          <div class="skill__items__progressbar">
+            <div class="progress">
+              <div id="bar__html" class="bar"></div>
+            </div>
+          </div>
+          <p class="skill__items__exp">
+            Webクリエイター能力認定試験エキスパート取得。<br />
+            職業訓練校でのソフトウェア開発実習経験あり。
+          </p>
+        </div>
+        <div class="skill__items">
+          <p class="skill__items__title">CSS</p>
+          <div class="skill__items__progressbar">
+            <div class="progress">
+              <div id="bar__css" class="bar"></div>
+            </div>
+          </div>
+          <p class="skill__items__exp">
+            Webクリエイター能力認定試験エキスパート取得。<br />
+            職業訓練校でのソフトウェア開発実習経験あり。
+          </p>
+        </div>
+        <div class="skill__items">
+          <p class="skill__items__title">JavaScript</p>
+          <div class="skill__items__progressbar">
+            <div class="progress">
+              <div id="bar__js" class="bar"></div>
+            </div>
+          </div>
+          <p class="skill__items__exp">
+            職業訓練校でのソフトウェア開発実習経験あり。
+          </p>
+        </div>
+        <div class="skill__items">
+          <p class="skill__items__title">SQL</p>
+          <div class="skill__items__progressbar">
+            <div class="progress">
+              <div id="bar__sql" class="bar"></div>
+            </div>
+          </div>
+          <p class="skill__items__exp">
+            職業訓練校でのソフトウェア開発実習経験あり。実務経験あり。
+          </p>
+        </div>
+        <div class="skill__items">
+          <p class="skill__items__title">PHP</p>
+          <div class="skill__items__progressbar">
+            <div class="progress">
+              <div id="bar__php" class="bar"></div>
+            </div>
+          </div>
+          <p class="skill__items__exp">
+            職業訓練校でのソフトウェア開発実習経験あり。
+          </p>
+        </div>
+        <div class="skill__items">
+          <p class="skill__items__title">VB.NET</p>
+          <div class="skill__items__progressbar">
+            <div class="progress">
+              <div id="bar__vbnet" class="bar"></div>
+            </div>
+          </div>
+          <p class="skill__items__exp">
+            経費精算等の簡単なプログラム開発経験あり。
+          </p>
+        </div>
+        <div class="skill__items">
+          <p class="skill__items__title">C言語</p>
+          <div class="skill__items__progressbar">
+            <div class="progress">
+              <div id="bar__c" class="bar"></div>
+            </div>
+          </div>
+          <p class="skill__items__exp">
+            C言語プログラミング能力認定試験2級取得。
+          </p>
+        </div>
+        <div class="skill__items">
+          <p class="skill__items__title">Java</p>
+          <div class="skill__items__progressbar">
+            <div class="progress">
+              <div id="bar__java" class="bar"></div>
+            </div>
+          </div>
+          <p class="skill__items__exp">
+            Javaプログラミング能力認定試験2級取得。
+          </p>
+        </div>
+        <div class="skill__items">
+          <p class="skill__items__title">Illustrator</p>
+          <div class="skill__items__progressbar">
+            <div class="progress">
+              <div id="bar__illust" class="bar"></div>
+            </div>
+          </div>
+          <p class="skill__items__exp">
+            バナー制作・LPデザインや装飾オブジェクトパーツの制作に活用。
+          </p>
+        </div>
+        <div class="skill__items">
+          <p class="skill__items__title">Photoshop</p>
+          <div class="skill__items__progressbar">
+            <div class="progress">
+              <div id="bar__photo" class="bar"></div>
+            </div>
+          </div>
+          <p class="skill__items__exp">写真の合成(複数枚)に活用。</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="service" class="sec">
+      <h2 class="section__title">
+        <img src="./images/section_title_SERVICE.svg" alt="SERVICE" class="section__title__img" />
+      </h2>
+      <div class="service__items">
+        <div class="cording">
+          <div class="items__img">
+            <img src="./images/SERVICE_items_CORDING.svg" alt="" id="service__items__cording" class="circle" />
+            <img src="./images/cording_icon.svg" alt="" id="cording__icon" />
+          </div>
+          <p class="items__exp">WEB CORDING</p>
+        </div>
+        <div class="design">
+          <div class="items__img">
+            <img src="./images/SERVICE_items_DESIGN.svg" alt="" id="service__items__design" class="circle" />
+            <img src="./images/design_icon.svg" alt="" id="design__icon" />
+          </div>
+          <p class="items__exp">WEB DESIGN</p>
+        </div>
+      </div>
+      <p class="service__exp">
+        コーディング（HTML・CSS・JavaScript）をメインとして、デザインにも対応しております。<br />
+        お気軽にご相談ください。
+      </p>
+      <p class="service__exp2">
+        コーディング<br />
+        （HTML・CSS・JavaScript）を<br />
+        メインとして、<br />
+        デザインにも対応しております。<br />
+        お気軽にご相談ください。
+      </p>
+    </section>
+
+    <section id="works" class="sec">
+      <h2 class="section__title">
+        <img src="./images/section_title_WORKS.svg" alt="WORKS" class="section__title__img" />
+      </h2>
+      <div class="works__items">
+        <div class="zoom__box button js-modal-button">
+          <img src="./images/WORKS_item01.png" alt="" id="works__item01" class="zoom" />
+        </div>
+        <div class="zoom__box button js-modal-button">
+          <img src="./images/WORKS_item02.png" alt="" id="works__item02" class="zoom" />
+        </div>
+        <div class="zoom__box button js-modal-button">
+          <img src="./images/WORKS_item03.png" alt="" id="works__item03" class="zoom" />
+        </div>
+        <div class="zoom__box button js-modal-button">
+          <img src="./images/WORKS_item04.png" alt="" id="works__item04" class="zoom" />
+        </div>
+        <div class="zoom__box button js-modal-button">
+          <img src="./images/WORKS_item05.png" alt="" id="works__item05" class="zoom" />
+        </div>
+      </div>
+      <div class="modal-area">
+        <div class="modal">
+          <div class="modal__inner">
+            <div class="modal__content">
+              <!-- 移動前 -->
+              <!-- <div class="modal__button-wrap">
+                <div class="close-button js-close-button">
+                  <span></span>
+                </div>
+              </div> -->
+              <div class="modal__inner-item">
+                <div class="modal__img">
+                  <!-- <img src="https://placehold.jp/800x600.png" alt="" /> -->
+                  <img src="./images/design_kadai1.jpg" alt="" class="modal__img__items" />
+                </div>
+                <p class="modal__title">● デザスタ学割プランバナーデザイン</p>
+                <ul class="modal__exp">
+                  <li><span>［担当範囲］</span>デザイン（トレース）</li>
+                  <li><span>［制作期間］5日</span></li>
+                </ul>
+              </div>
+              <!-- 移動後 -->
+              <div class="modal__button-wrap">
+                <div class="close-button js-close-button">
+                  <span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal">
+          <div class="modal__inner">
+            <div class="modal__content">
+              <!-- 移動前 -->
+              <!-- <div class="modal__button-wrap">
+                <div class="close-button js-close-button">
+                  <span></span>
+                </div>
+              </div> -->
+              <div class="modal__inner-item">
+                <div class="modal__img">
+                  <!-- <img src="https://placehold.jp/800x600.png" alt="" /> -->
+                  <img src="./images/design_kadai2.jpg" alt="" class="modal__img__items" />
+                </div>
+                <p class="modal__title">● TRRRRIP. アプリバナーデザイン</p>
+                <ul class="modal__exp">
+                  <li><span>［担当範囲］</span>デザイン（トレース）</li>
+                  <li><span>［制作期間］5日</span></li>
+                </ul>
+              </div>
+              <!-- 移動後 -->
+              <div class="modal__button-wrap">
+                <div class="close-button js-close-button">
+                  <span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal">
+          <div class="modal__inner">
+            <div class="modal__content">
+              <!-- 移動前 -->
+              <!-- <div class="modal__button-wrap">
+                <div class="close-button js-close-button">
+                  <span></span>
+                </div>
+              </div> -->
+              <div class="modal__inner-item">
+                <div class="modal__img">
+                  <!-- <img src="https://placehold.jp/800x600.png" alt="" /> -->
+                  <img src="./images/design_kadai3.jpg" alt="" class="modal__img__items" />
+                </div>
+                <p class="modal__title">● デラックスバーガー</p>
+                <ul class="modal__exp">
+                  <li><span>［担当範囲］</span>デザイン</li>
+                  <li><span>［制作期間］7日</span></li>
+                </ul>
+              </div>
+              <!-- 移動後 -->
+              <div class="modal__button-wrap">
+                <div class="close-button js-close-button">
+                  <span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal">
+          <div class="modal__inner">
+            <div class="modal__content">
+              <!-- 移動前 -->
+              <!-- <div class="modal__button-wrap">
+                <div class="close-button js-close-button">
+                  <span></span>
+                </div>
+              </div> -->
+              <div class="modal__inner-item">
+                <div class="modal__img">
+                  <!-- <img src="https://placehold.jp/800x600.png" alt="" /> -->
+                  <img src="./images/design_kadai4@2x.png" alt="" class="modal__img__items" />
+                </div>
+                <p class="modal__title">● WORKERSホームページ</p>
+                <ul class="modal__exp">
+                  <li><span>［担当範囲］</span>デザイン（トレース）</li>
+                  <li><span>［制作期間］14日</span></li>
+                </ul>
+              </div>
+              <!-- 移動後 -->
+              <div class="modal__button-wrap">
+                <div class="close-button js-close-button">
+                  <span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal">
+          <div class="modal__inner">
+            <div class="modal__content">
+              <!-- 移動前 -->
+              <!-- <div class="modal__button-wrap">
+                  <div class="close-button js-close-button">
+                    <span></span>
+                  </div>
+                </div> -->
+              <div class="modal__inner-item">
+                <div class="modal__img">
+                  <!-- <img src="https://placehold.jp/800x600.png" alt="" /> -->
+                  <!-- <img src="./images/design_kadai5.png" alt="" class="modal__img__items" /> -->
+                  <img src="./images/design_kadai5@2x.png" alt="" class="modal__img__items" />
+                </div>
+                <p class="modal__title">● DESIGN CAFEホームページ</p>
+                <ul class="modal__exp">
+                  <li><span>［担当範囲］</span>コーディング</li>
+                  <li><span>［制作期間］12日</span></li>
+                </ul>
+              </div>
+              <!-- 移動後 -->
+              <div class="modal__button-wrap">
+                <div class="close-button js-close-button">
+                  <span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="switching">
+      <div class="loading-text"></div>
+    </div>
+
+    <section id="contact" class="sec">
+      <h2 class="section__title">
+        <img src="./images/section_title_CONTACT.svg" alt="CONTACT" class="section__title__img" />
+      </h2>
+      <form>
+        <div id="contact__name" class="contact__items">
+          <label for="name__id" class="contact__items__label">お名前</label>
+          <input id="name__id" type="text" name="name" class="contact__input" />
+        </div>
+        <div id="contact__furigana" class="contact__items">
+          <label for="furigana__id" class="contact__items__label">フリガナ</label>
+          <input id="furigana__id" type="text" name="furigana" class="contact__input" />
+        </div>
+        <div id="contact__tel" class="contact__items">
+          <label for="tel__id" class="contact__items__label">電話番号</label>
+          <input id="tel__id" type="tel" name="tel" class="contact__input" />
+        </div>
+        <div id="contact__maill" class="contact__items">
+          <label for="maill__id" class="contact__items__label">メールアドレス</label>
+          <input id="maill__id" type="email" name="maill" class="contact__input" />
+        </div>
+        <div id="contact__message" class="contact__items">
+          <label for="message__id" class="contact__items__label">お問い合わせ内容</label>
+          <textarea id="message__id" name="message" class="contact__textarea"></textarea>
+        </div>
+        <div class="contact__submit">
+          <input type="submit" value="送　信" class="form__btn" />
+        </div>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <small>&copy;SONOMI DESIGN</small>
+    <div class="text-loop">
+      <div class="text-loop__anime">
+        <div class="text-loop__anime-text">
+          sonomi&nbsp;design&nbsp;sonomi&nbsp;design&nbsp;sonomi&nbsp;design
+        </div>
+        <div class="text-loop__anime-text">
+          sonomi&nbsp;design&nbsp;sonomi&nbsp;design&nbsp;sonomi&nbsp;design
+        </div>
+        <div class="text-loop__anime-text">
+          sonomi&nbsp;design&nbsp;sonomi&nbsp;design&nbsp;sonomi&nbsp;design
+        </div>
+      </div>
+    </div>
+    <p class="toTop">
+      <a href="#header">
+        <img src="./images/top_button.svg" alt="トップに戻る" id="to_top" />
+      </a>
+    </p>
+  </footer>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
