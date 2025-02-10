@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 389.99">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10 {
+        fill: #826556;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19 {
+        font-family: AllRoundGothic-Bold, 'All Round Gothic';
+        font-weight: 700;
+      }
+
+      .cls-2, .cls-19 {
+        font-size: 36.14px;
+      }
+
+      .cls-3, .cls-18 {
+        font-size: 36.13px;
+      }
+
+      .cls-4, .cls-17 {
+        font-size: 36.1px;
+      }
+
+      .cls-5, .cls-16 {
+        font-size: 36.09px;
+      }
+
+      .cls-6, .cls-14 {
+        font-size: 35.98px;
+      }
+
+      .cls-7, .cls-15 {
+        font-size: 35.97px;
+      }
+
+      .cls-8, .cls-13 {
+        font-size: 35.95px;
+      }
+
+      .cls-9, .cls-11 {
+        font-size: 36.04px;
+      }
+
+      .cls-10, .cls-12 {
+        font-size: 36.03px;
+      }
+
+      .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19 {
+        fill: #3c0f02;
+      }
+    </style>
+  </defs>
+  <g id="PC">
+    <g>
+      <ellipse class="cls-1" cx="195" cy="195" rx="175.68" ry="174.77"/>
+      <g>
+        <text class="cls-13" transform="translate(173.59 30.62) rotate(-1.52) skewX(.02)"><tspan x="0" y="0">W</tspan></text>
+        <text class="cls-8" transform="translate(173.59 30.62) rotate(-1.52) skewX(.02)"><tspan x="0" y="0">W</tspan></text>
+      </g>
+      <g>
+        <text class="cls-15" transform="translate(237.13 35.14) rotate(18.22) skewX(-.18)"><tspan x="0" y="0">E</tspan></text>
+        <text class="cls-7" transform="translate(237.13 35.14) rotate(18.22) skewX(-.18)"><tspan x="0" y="0">E</tspan></text>
+      </g>
+      <g>
+        <text class="cls-12" transform="translate(289.02 58.76) rotate(38.12) skewX(-.29)"><tspan x="0" y="0">B</tspan></text>
+        <text class="cls-10" transform="translate(289.02 58.76) rotate(38.12) skewX(-.29)"><tspan x="0" y="0">B</tspan></text>
+      </g>
+      <g>
+        <text class="cls-16" transform="translate(329.66 98.12) rotate(58.05) skewX(-.27)"><tspan x="0" y="0">D</tspan></text>
+        <text class="cls-5" transform="translate(329.66 98.12) rotate(58.05) skewX(-.27)"><tspan x="0" y="0">D</tspan></text>
+      </g>
+      <g>
+        <text class="cls-15" transform="translate(152.87 354.86) rotate(-161.78) skewX(-.18)"><tspan x="0" y="0">E</tspan></text>
+        <text class="cls-7" transform="translate(152.87 354.86) rotate(-161.78) skewX(-.18)"><tspan x="0" y="0">E</tspan></text>
+      </g>
+      <g>
+        <text class="cls-19" transform="translate(360.43 209.39) rotate(98.48) skewX(.09)"><tspan x="0" y="0">S</tspan></text>
+        <text class="cls-2" transform="translate(360.43 209.39) rotate(98.48) skewX(.09)"><tspan x="0" y="0">S</tspan></text>
+      </g>
+      <g>
+        <text class="cls-17" transform="translate(343.26 269.01) rotate(118.81) skewX(.25)"><tspan x="0" y="0">I</tspan></text>
+        <text class="cls-4" transform="translate(343.26 269.01) rotate(118.81) skewX(.25)"><tspan x="0" y="0">I</tspan></text>
+      </g>
+      <g>
+        <text class="cls-11" transform="translate(315.09 309.5) rotate(138.78) skewX(.29)"><tspan x="0" y="0">G</tspan></text>
+        <text class="cls-9" transform="translate(315.09 309.5) rotate(138.78) skewX(.29)"><tspan x="0" y="0">G</tspan></text>
+      </g>
+      <g>
+        <text class="cls-14" transform="translate(267 344.06) rotate(158.66) skewX(.2)"><tspan x="0" y="0">N</tspan></text>
+        <text class="cls-6" transform="translate(267 344.06) rotate(158.66) skewX(.2)"><tspan x="0" y="0">N</tspan></text>
+      </g>
+      <g>
+        <text class="cls-13" transform="translate(216.41 359.38) rotate(178.48) skewX(.02)"><tspan x="0" y="0">W</tspan></text>
+        <text class="cls-8" transform="translate(216.41 359.38) rotate(178.48) skewX(.02)"><tspan x="0" y="0">W</tspan></text>
+      </g>
+      <g>
+        <text class="cls-18" transform="translate(355.23 151.34) rotate(78.35) skewX(-.12)"><tspan x="0" y="0">E</tspan></text>
+        <text class="cls-3" transform="translate(355.23 151.34) rotate(78.35) skewX(-.12)"><tspan x="0" y="0">E</tspan></text>
+      </g>
+      <g>
+        <text class="cls-12" transform="translate(100.98 331.23) rotate(-141.88) skewX(-.29)"><tspan x="0" y="0">B</tspan></text>
+        <text class="cls-10" transform="translate(100.98 331.23) rotate(-141.88) skewX(-.29)"><tspan x="0" y="0">B</tspan></text>
+      </g>
+      <g>
+        <text class="cls-16" transform="translate(60.34 291.88) rotate(-121.95) skewX(-.27)"><tspan x="0" y="0">D</tspan></text>
+        <text class="cls-5" transform="translate(60.34 291.88) rotate(-121.95) skewX(-.27)"><tspan x="0" y="0">D</tspan></text>
+      </g>
+      <g>
+        <text class="cls-18" transform="translate(34.77 238.65) rotate(-101.65) skewX(-.12)"><tspan x="0" y="0">E</tspan></text>
+        <text class="cls-3" transform="translate(34.77 238.65) rotate(-101.65) skewX(-.12)"><tspan x="0" y="0">E</tspan></text>
+      </g>
+      <g>
+        <text class="cls-19" transform="translate(29.56 180.61) rotate(-81.52) skewX(.09)"><tspan x="0" y="0">S</tspan></text>
+        <text class="cls-2" transform="translate(29.56 180.61) rotate(-81.52) skewX(.09)"><tspan x="0" y="0">S</tspan></text>
+      </g>
+      <g>
+        <text class="cls-17" transform="translate(46.74 120.98) rotate(-61.19) skewX(.25)"><tspan x="0" y="0">I</tspan></text>
+        <text class="cls-4" transform="translate(46.74 120.98) rotate(-61.19) skewX(.25)"><tspan x="0" y="0">I</tspan></text>
+      </g>
+      <g>
+        <text class="cls-11" transform="translate(74.91 80.49) rotate(-41.22) skewX(.29)"><tspan x="0" y="0">G</tspan></text>
+        <text class="cls-9" transform="translate(74.91 80.49) rotate(-41.22) skewX(.29)"><tspan x="0" y="0">G</tspan></text>
+      </g>
+      <g>
+        <text class="cls-14" transform="translate(122.99 45.93) rotate(-21.34) skewX(.2)"><tspan x="0" y="0">N</tspan></text>
+        <text class="cls-6" transform="translate(122.99 45.93) rotate(-21.34) skewX(.2)"><tspan x="0" y="0">N</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
