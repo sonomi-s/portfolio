@@ -7,7 +7,7 @@ html {
 /* body */
 body {
   background-image: url(../images/background.png);
-  background-size: 100%;
+  /* background-size: 100%; */
 }
 
 /* header */
